@@ -1,5 +1,5 @@
 <?php
-	$key = $_REQUEST['key'] == '0101001001' ? $_REQUEST['key'] : false;
+	$key = $_REQUEST['key'] == 'letmein' ? $_REQUEST['key'] : false;
 ?>
 <!DOCTYPE html>
 <html lang="en">
