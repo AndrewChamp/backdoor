@@ -8,21 +8,22 @@
 	<meta name="robots" content="noindex, nofollow, noarchive" />
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<!--[if lt IE 9]>
+		<script>
+			document.createElement('header');
+			document.createElement('nav');
+			document.createElement('section');
+			document.createElement('article');
+			document.createElement('aside');
+			document.createElement('footer');
+			document.createElement('hgroup');
+		</script>
+	<![endif]-->
 	<style>
 		*{padding:0; margin:0; outline:0;}
 		header, nav, section, article, aside, footer, hgroup{display:block;}
 		html{min-height:100%; height:auto; overflow-y:scroll;}
 		body{background:#444; color:#CCC; text-shadow:-1px -1px 0 #000; font-family:Consolas, Monaco, "Courier New", Courier, monospace; font-size:14px;}
-		.left{float:left;}
-		.right{float:right;}
-		.center{text-align:center;}
-		.twenty{width:19%;}
-		.thirty{width:29%;}
-		.forty{width:39%;}
-		.fifty{width:49%;}
-		.sixty{width:59%;}
-		.seventy{width:69%;}
-		.eighty{width:79%;}
 		img{max-width:100%;}
 		img.left{margin:0 20px 10px 0;}
 		img.right{margin:0 0 10px 20px;}
