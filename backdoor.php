@@ -32,7 +32,7 @@
 		.error{background:#E2B3B3; color:#9E1010; border:1px solid #9E1010;}
 		.success{background:#B2E6B0; color:#0A8100; border:1px solid #0A8100;}
 		textarea{resize:vertical; min-height:300px;}
-		form{background:#333; padding:2%; box-shadow:inset 0 0 5px #222;}
+		form, aside{background:#333; padding:2%; margin:0 0 20px 0; box-shadow:inset 0 0 5px #222; clear:both; overflow:hidden;}
 		fieldset{border:0;}
 		label{clear:both; display:block;}
 		input:not([type="submit"]), textarea, select{clear:both; display:block; margin:5px 0 10px 0; padding:1%; width:98%; background:#555; border:1px solid #666; color:#CCC; text-shadow:-1px -1px 0 #444; font-family:Consolas, Monaco, "Courier New", Courier, monospace;}
@@ -101,8 +101,6 @@
 			<input type="submit" value="Save" />
 		</fieldset>
 	</form>
-
-		<div class="clear"></div>
 	
 	<form method="post" action="" enctype="multipart/form-data">
 		<fieldset>
@@ -113,7 +111,6 @@
 		</fieldset>
 	</form>
 
-		<div class="clear"></div>
 	
 <?php
 	endif;
